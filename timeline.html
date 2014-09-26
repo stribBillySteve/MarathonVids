@@ -1,0 +1,346 @@
+
+
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<style>
+/*
+This CSS resource incorporates links to font software which is
+the valuable copyrighted property of WebType LLC, The Font Bureau,
+Ascender Corporation and/or their suppliers. You may not
+attempt to copy, install, redistribute, convert, modify or reverse
+engineer this font software. Please contact WebType with any
+questions: http://www.webtype.com
+*/
+
+/*
+@font-face syntax based on Fontspring @font-face syntax.
+*/
+
+
+@font-face {
+	font-family: Popular;
+	src: url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-2.eot?") format("embedded-opentype"),
+		 url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-3.woff") format("woff"),
+		 url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-1.ttf") format("truetype"),
+		 url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-4.svg#web") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Popular-medium;
+	src: url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-2.eot?") format("embedded-opentype"),
+		 url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-3.woff") format("woff"),
+		 url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-1.ttf") format("truetype"),
+		 url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-4.svg#web") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Popular-bold;
+	src: url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-2.eot?") format("embedded-opentype"),
+	url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-3.woff") format("woff"),
+	url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-1.ttf") format("truetype"),
+	url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-4.svg#web") format("svg");
+	font-style: normal;
+	font-weight: bold;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+background: #fff;
+font-family: Popular, serif;
+color: #333;
+font-size: 14px;
+}
+
+a {
+color: #999;
+text-decoration: none;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+
+a:hover, a.selected { 
+color: #ee5555; 
+}
+
+h1,h2,h4,h5,h6 {
+text-align: center;
+color: #ccc;
+text-shadow: #000 1px 1px 2px;
+margin-bottom: 5px;
+}
+
+h1 { font-size: 18px; }
+h2 { font-size: 14px; }
+
+.raceLabel {
+width: 630px;
+height: auto;
+font-family: helvetica,arial,sans-serif;
+font-weight: bold;
+font-size: 14px;
+letter-spacing: 2px;
+text-align: center;
+color: #ee5555;
+margin: 0px auto;
+}
+    
+.raceHed {
+width: 630px;
+font-size: 42px;
+text-align: center;
+font-weight: bold;
+letter-spacing: -1px;    
+margin: 10px auto;
+}   
+  
+.raceIntro {
+width: 630px;
+height: auto;
+font-family: helvetica,arial,sans-serif;
+font-size: 16px;
+text-align: center;
+color: #666;
+margin: 0px auto;
+}  
+    
+   
+
+#timeline {
+width: 630px;
+height: 550px;
+overflow: hidden;
+margin: 10px auto;
+position: relative;
+background: url('http://stmedia.startribune.com/designimages/dotGray.gif') left 55px repeat-x;
+}
+
+
+#dates {
+width: 630px;
+height: 60px;
+overflow: hidden;
+margin-top: 0px;
+}
+
+#dates li {
+list-style: none;
+float: left;
+width: 100px;
+height: 50px;
+font-size: 22px;
+margin-top: 10px;
+text-align: center;
+background: url('http://stmedia.startribune.com/designimages/biggerdotGray.png') center bottom no-repeat;
+}
+
+#dates a {
+line-height: 36px;
+padding-bottom: 0px;
+}
+
+#dates .selected { 
+font-size: 36px; }
+
+#issues {
+width: 512px;
+height: 420px;
+overflow: hidden;
+background-color: none;
+}
+
+#issues li {
+width: 630px;
+height: 420px;
+list-style: none;
+float: left;
+position: relative;
+background-color: none;
+}
+
+#issues li img {
+float: left;
+margin: 20px 20px 20px 58px;
+box-shadow: #000 1px 2px 5px;
+}
+
+
+
+
+
+
+#grad_left, #grad_right {
+width: 75px;
+height: 530px;
+position: absolute;
+top: 0;
+}
+
+#grad_left {
+left: 0;
+background: url('http://stmedia.startribune.com/designimages/whiteGradLeft.png') repeat-y;
+}
+
+#grad_right {
+right: 0;
+background: url('http://stmedia.startribune.com/designimages/whiteGradRight.png') repeat-y;
+}
+
+#next, #prev {
+position: absolute;
+font-size: 70px;
+top: 170px;
+width: 22px;
+height: 38px;
+text-shadow: #000 1px 1px 2px;
+}
+
+#next:hover, #prev:hover { 
+background-position: 0 -76px; color: #999999;}
+    
+#next { 
+right: 18px; 
+color: #ee5555;
+}
+
+#prev { 
+left: 18px; 
+color: #ee5555;
+}
+#next.disabled,#prev.disabled { 
+opacity: 0.2; 
+}
+
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Vikings Uniforms</title>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://www.startribune.com/includes/jquery.timelinr-0.9.4.js" type="text/javascript"></script>
+	<script type="text/javascript"> 
+		$(function(){
+			$().timelinr()
+		});
+	</script>
+</head>
+
+<body style="padding:10px !important;margin:0 !important;">
+
+    
+<div class="raceLabel"> 
+2014 TWIN CITIES MARATHON
+</div>
+
+<div class="raceHed"> 
+At the finish line
+</div>
+
+<div class="raceIntro"> 
+Choose a time period to see videos of athletes completing the race.
+</div>
+     
+    
+<div id="timeline">
+<ul id="dates">
+<li><a href="#video1">9:00</a></li>
+<li><a href="#video2">9:10</a></li>
+<li><a href="#video3">9:20</a></li>
+<li><a href="#video4">9:40</a></li>
+<li><a href="#video5">10:00</a></li>
+<li><a href="#video6">10:10</a></li>
+<li><a href="#video7">10:20</a></li>
+<li><a href="#video8">10:30</a></li>
+<li><a href="#video9">10:45</a></li>
+<li><a href="#video10">11:00</a></li>
+<li><a href="#video11">11:10</a></li>
+<li><a href="#video12">11:20</a></li>
+
+    </ul>
+    
+    
+<ul id="issues">
+<li id="video1">
+<img src="marathon1.jpg" width="512" height="288" />
+</li>
+
+<li id="video2">
+<img src="marathon2.jpg" width="512" height="288" />
+</li>
+
+
+<li id="video3">
+<img src="marathon1.jpg" width="512" height="288" />
+</li>
+
+
+<li id="video4">
+<img src="marathon2.jpg" width="512" height="288" />
+</li>
+
+
+<li id="video5">
+<img src="marathon1.jpg" width="512" height="288" />
+</li>
+
+<li id="video6">
+<img src="marathon1.jpg" width="512" height="288" />
+</li>
+
+<li id="video7">
+<img src="marathon2.jpg" width="512" height="288" />
+</li>
+
+<li id="video8">
+<img src="marathon1.jpg" width="512" height="288" />
+</li>
+
+
+<li id="video9">
+<img src="marathon2.jpg" width="512" height="288" />
+</li>
+
+<li id="video10">
+<img src="marathon1.jpg" width="512" height="288" />
+</li>
+
+<li id="video11">
+<img src="marathon2.jpg" width="512" height="288" />
+</li>
+			
+<li id="video12">
+<img src="marathon2.jpg" width="512" height="288" />
+</li>
+
+
+</ul>
+<div id="grad_left"></div>
+<div id="grad_right"></div>
+<a href="#" id="next">&rsaquo;</a>
+<a href="#" id="prev">&lsaquo;</a>
+</div>
+	
+  
+     
+</body>
+</html>
+
